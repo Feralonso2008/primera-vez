@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ventas de licuadora</title>
+    <style>
+        table, th, td {
+            border:1px solid black;  
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+       <tbody>
+        <tr>
+            <td>licuadora de steam</td>
+            <td>20$</td>
+        </tr>
+        <tr>
+            <td>licuadora de nova</td>
+            <td>50.90$</td>
+        </tr>
+        <tr>
+            <td>licuadora de oster</td>
+            <td>100$</td>
+        </tr>
+       </tbody>
+       <tfoot>
+        <td></td>
+        <td>Total:170.90$</td>
+       </tfoot>
+    </table>
+<!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!--ol es lista ordenada-->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman;">  sub elemento 1</li>
+                <li style="list-style-type:lower-roman;">sub elemento 2</li>
+                <li style="list-style-type:lower-roman;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario"  method="post">
+        <label for="nombre">Nombre</label>
+        <input value="licuadora" type="text"  id="nombre" name="nombre" placeholder="licuadora...">
+        <br>
+        <label for="estado">Estado</label>
+        <input value="bueno" type="text"  id="estado" name="estado" placeholder="estado...">
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea  cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario">este es un valor por defecto</textarea>
+        <br>
+        <button type="button"> Tipo boton</button>
+        <button type="reset">Tipo boton</button>
+        <button type="submit">Tipo boton</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>licuadora</h6> 
+    <p>licuadora estable</p>
+    <p>licuadora vieja</p>
+    <hr>
+    <h2>licuadora</h2>
+    <p>
+        Este texto es mucho <span style="color:blue">mas largo</span>
+        y es para mostrar<br> la etiqueta spam!
+    </p>
+    <!--este texto es un comentario y no va
+    aparecer en el explorador-->
+    <a target="_blank" href="http://www.google.com">Ir a google</a>
+    <img src="img/licuadora.png" width="400" /> 
+</body>
+</html>
